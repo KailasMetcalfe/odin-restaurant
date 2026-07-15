@@ -1,0 +1,41 @@
+.menu-page {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(230, 201, 163, 0.555);
+    margin: 30px;
+    padding: 1rem 3rem;
+    outline: 1px rgba(160, 137, 106, 0.651) solid;
+    outline-offset: -20px;
+}
+
+.menu-page h1 {
+    font-family: Bodoni;
+    font-size: 5rem;
+}
+
+.menu-page > div:not(:last-child) {
+    border-bottom: 1px black dashed;
+}
+
+.menu-page > div {
+    padding-bottom: 3rem;
+}
+
+.menu-page .dishes {
+    display: flex;
+    gap: 5%;
+}
+
+.menu-page .dish {
+    max-width: 25rem;
+}
+
+.menu-page .dish h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.menu-page .dish p {
+    font-size: 15px;
+    font-style: italic;
+}

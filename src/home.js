@@ -5,6 +5,9 @@ import "./home.css";
 export default function loadPageDefault() {
     const container = document.querySelector("#content");
 
+    const homePage = document.createElement("div");
+    homePage.classList.add("home-page");
+
     const image = document.createElement("img");
     image.src = pizzaImg;
     image.alt = "Pizza on bench with beer"
@@ -21,6 +24,8 @@ export default function loadPageDefault() {
     div.appendChild(headline);
     div.appendChild(tagline);
 
-    container.appendChild(image);
-    container.appendChild(div);
+    homePage.appendChild(image);
+    homePage.appendChild(div);
+
+    container.append(homePage);
 }
