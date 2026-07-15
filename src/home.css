@@ -1,0 +1,30 @@
+#content {
+    background-color: rgba(233, 233, 233, 0.459);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+#content img {
+    width: 400px;
+    height: auto
+}
+
+#content div {
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#content div > h1 {
+    font-family: Bodoni;
+    font-size: 7rem;
+}
+
+#content div > p {
+    font-size: 1.5rem;
+    padding-left: 4rem;
+}

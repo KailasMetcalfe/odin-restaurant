@@ -1,4 +1,6 @@
 import pizzaImg from "./pizza.jpg";
+import "./home.css";
+
 
 export default function loadPageDefault() {
     const container = document.querySelector("#content");

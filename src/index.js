@@ -1,4 +1,4 @@
 import "./styles.css";
-import loadPageDefault from "./page-load.js";
+import loadHome from "./home.js";
 
-loadPageDefault();
+loadHome();
