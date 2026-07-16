@@ -18,7 +18,7 @@ export default function loadPageDefault() {
     headline.textContent = "A Taste of Italy In Bristol";
 
     const tagline = document.createElement("p");
-    tagline.textContent = "We welcome you to ... , where passion meets comfort. \
+    tagline.textContent = "We welcome you to NAME, where passion meets comfort. \
     Try our range of delicious pizzas and pastas for an affordable price.";
 
     div.appendChild(headline);
